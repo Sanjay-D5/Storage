@@ -1,5 +1,7 @@
 # 🗂️ Storage - Cloud File Manager Web App
-Storage is a modern web application that mimics the core functionality of a cloud storage platform, built using React.js. This project allows users to upload, organize, and manage files in a clean and responsive interface — a great clone-style project that showcases your front-end and back-end integration skills.
+> 📚 **Learning project.** Built by following a tutorial while learning **TypeScript, Appwrite (auth, database and storage) and form handling with React Hook Form + Zod**.
+
+Storage is a Google Drive–style web app for uploading, sharing and managing files, built with React, TypeScript and Appwrite.
 
 ## Table of Contents
 
@@ -18,11 +20,12 @@ Storage is a Google Drive style clone that demonstrates how you can build a file
 
 ## 🚀 Key Features
 
-- Upload files (images, documents, etc.)
-- Create and manage folders
-- Clean and minimal UI
+- Email OTP sign-up and sign-in
+- Drag-and-drop file upload (images, documents, media)
+- Rename, delete and share files with other users
+- Storage usage dashboard with a chart
+- Debounced file search
 - Fully responsive layout
-- Backend Integration using Firebase or Appwrite
 
 ## ⚙️ Installation & Setup
 
@@ -48,11 +51,10 @@ npm run dev
 
 ## 🛠️ Tech Stack
 
-Frontend: React.js, Tailwind CSS
-File Handling: Backend storage (Appwrite)
-Optional Backend: Appwrite
-Icons: React Icons
-Routing: React Router
+- **Frontend:** React, TypeScript, Vite, Tailwind CSS, shadcn/ui (Radix UI)
+- **Backend:** Appwrite (auth, database, storage)
+- **Forms:** React Hook Form, Zod
+- **Other:** React Router, react-dropzone, Recharts, Lucide icons
 
 ## 📸 Screenshots
 📂 Dashboard View
